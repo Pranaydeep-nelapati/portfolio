@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- Include Font Awesome CDN in your HTML head -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav" id="Btn">
+            
+        </div>
+        <div class="container">
+            <div class="profile-container">
+                <h3 class="profile-name">PRANAY DEEP NELAPATI</h3>
+                <img src="imgs\propic.jpg" alt="Profile Picture" class="profile-pic" onclick="showProfile()">
+              </div>
+              
+              
+              <div id="profile-fullscreen" class="fullscreenn" onclick="closeProfile()">
+                <img src="imgs\propic.jpg" alt="Full Profile">
+              </div>
+              
+
+              <nav>
+                <!-- Menu button for small screens -->
+                <button class="menu-button" id="menu-button">☰</button>
+              
+                <!-- Navigation menu -->
+                <ul class="nav-menu" id="nav-menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#members">About</a></li>
+                  <li><a href="#certificates">Certificates</a></li>
+                  <li><a href="#add-member">Contact</a></li>
+                  <li><a href="javascript:void(0)" onclick="toggleSection('skills')">Skills</a></li>
+                  <li><a href="javascript:void(0)" onclick="toggleSection('projects')">Projects</a></li>
+                </ul>
+              </nav>
+              
+              <!-- Fullscreen Skills Section -->
+              <div id="skills" class="hidden-section">
+                <button class="close-btn" onclick="toggleSection('skills')">X</button>
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <img src="imgs/HTML5.jpg" alt="HTML">
+                    <p>HTML</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="imgs/CSS3.jpg" alt="CSS">
+                    <p>CSS</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="imgs/js.jpg" alt="JavaScript">
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="imgs/Python logo.jpg" alt="Python">
+                    <p>Python</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="imgs/react.jpg" alt="React">
+                    <p>React</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="imgs/sql.jpg" alt="React">
+                    <p>SQL</p>
+                  </div>
+                </div> <!-- closed skills-grid -->
+                <h2 style="margin-top: 50px;">Languages i speak</h2>
+                <div id="skills" style="padding: 10px;">
+                    <div class="skills-grid">
+                    
+                    <div class="skill-card">
+                      <img src="imgs/telugu.jpg" alt="React">
+                      <p>TELUGU</p>
+                    </div>
+                    <div class="skill-card">
+                      <img src="imgs/english.jpg" alt="React">
+                      <p>ENGLISH</p>
+                    </div>
+                    <div class="skill-card">
+                      <img src="imgs/hindi.jpg" alt="React">
+                      <p>HINDI</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              <!-- Fullscreen Projects Section -->
+              <div id="projects" class="hidden-section">
+                <button class="close-btn" onclick="toggleSection('projects')">X</button>
+                <h2>My Projects</h2>
+
+                <div class="project">
+                    <h3>🖥️ Portfolio Website</h3>
+                    <p>
+                      A personal portfolio website showcasing my skills, experience, and projects. 
+                      <br>The site features an elegant, user-friendly design with sections for my resume, projects, and contact details. 
+                      <br>The layout is responsive, ensuring that it looks great on both mobile and desktop devices.
+                    </p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                      <li>Modern, minimalistic design with easy navigation</li>
+                      <li>Showcase of personal projects and skills</li>
+                      <li>Responsive design for optimal performance on all devices</li>
+                      <li>Contact details for easy communication</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#bro" onclick="closeSections()">Currently viewing the page</a>
+
+
+                  </div>
+                  
+                
+                <div class="project">
+                    <h3>🌤️ Weather Application</h3>
+                    <p>
+                      A modern, responsive weather application that delivers real-time weather updates based on the user's current location.
+                      <br> It provides a clean, intuitive interface with dynamic visuals that adapt to the current weather conditions — making the experience both informative and visually engaging.
+                    </p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                      <li>Auto-detects your location using the Geolocation API</li>
+                      <li>Fetches real-time weather data from OpenWeatherMap API</li>
+                      <li>Dynamically updates background based on weather conditions</li>
+                      <li>Fully responsive design for both desktop and mobile</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, OpenWeatherMap API, Geolocation API</p>
+                    <a href="https://myweatherapplication34.netlify.app/" target="_blank">🔗 View Live Project</a>
+                  </div>
+                  
+
+
+                  <div class="project">
+                    <h3>🛒 Grocery Store Management System</h3>
+                    <p>
+                      A full-featured desktop application designed to streamline daily operations in a retail grocery store. 
+                      <br>This system simplifies inventory tracking, billing, customer data handling, and reporting, providing a smooth and professional user experience.
+                    </p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                      <li>Inventory management with product addition, updates, and stock tracking</li>
+                      <li>Billing and invoice generation with tax and discount handling</li>
+                      <li>Customer data storage and purchase history tracking</li>
+                      <li>Secure login for admin and staff access</li>
+                      <li>Sales and inventory report generation</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, Python, SQL(Database)</p>
+                    
+                  </div>
+                  
+              </div>
+              
+        </div>
+    </header>
+
+    <main>
+        <section class="bro" id="bro">
+            <div class="news-ticker">
+              <p class="scroll-text">
+                ❤️ welcome❗— 🚨 Upcoming Project Launch Soon! — Check latest updates. — query❓ contact me now — New certificates added to the gallery! — Thank you 🙏🫶
+              </p>
+            </div>
+          </section>
+          
+        <section id="home" class="container">
+            <h2>Home</h2>
+            <p>Welcome to My Portfolio!<br>
+                Hi, I'm a Full-Stack Developer with a passion for crafting efficient, scalable, and user-friendly applications. 
+                <br>With expertise in both frontend and backend technologies, I bring ideas to life through clean code and intuitive design.
+                <br> Beyond development, my knowledge spans various other fields, allowing me to approach challenges with a unique perspective.
+                
+                </p>
+        </section>
+
+        <section id="members" class="container">
+            <h2>About</h2>
+            <ul id="member-list">
+                <p>I am a passionate full-stack developer with expertise in building dynamic and responsive web applications.<br> 
+                    With a strong command of both frontend and backend technologies, I create seamless user experiences while ensuring robust backend functionality.<br>
+                     Beyond development, I have knowledge in various other fields, allowing me to approach problems with a multidisciplinary perspective. 
+                     <br>I am always eager to learn, innovate, and contribute to meaningful projects. Let's build something amazing together!</p>
+                <!-- Member list will populate here -->
+            </ul>
+        </section>
+
+        
+
+        <section id="certificates" class="container">
+            
+        </section>
+
+        <section id="gallery" class="container">
+            <h2>Certificates</h2>
+            <div class="image-grid" id="imageContainer">
+                <img src='imgs/nbkr.jpeg' alt="Image 1" data-order="1" class="gallery-img">
+                <img src='imgs/aws.png' alt="Image 2" data-order="2" class="gallery-img">
+                <img src='imgs/cybersecurity.png' alt="Image 3" data-order="3" class="gallery-img">
+                <img src='imgs/trai.jpeg' alt="Image 4" data-order="4"class="gallery-img">
+                <img src='imgs/innovate.png' alt="Image 5" data-order="5"class="gallery-img">
+                <img src='imgs/excelr.png' alt="Image 6" data-order="6"class="gallery-img">
+                <img src='imgs/django.png' alt="Image 7" data-order="7"class="gallery-img">
+                <img src='imgs/course.jpg' alt="Image 8" data-order="8"class="gallery-img">
+                <img src='imgs/nptel.jpg' alt="Image 9" data-order="9"class="gallery-img">
+                <img src='imgs/ppt.jpg' alt="Image 10" data-order="10"class="gallery-img">
+            </div>
+            <div class="fullscreen" id="fullscreen">
+                <span class="close" onclick="closeImage()">x</span>
+                <img id="fullscreen-img" src="">
+               
+            </div>
+        </section>
+        
+        <section id="add-member" class="container">
+            <h2>contact</h2>
+            
+
+<!-- Email icon -->
+<a href="mailto:deeppranay8@gmail.com">
+    <img src='imgs/email icon design.png' alt="LinkedIn" style="width:40px; height:40px; cursor:pointer;">
+</a>
+<br>
+
+  
+        </section>
+       
+    </main>
+
+    <footer class="site-footer">
+        <div class="top">
+            <a href="#bro" class="top-link" id="topBtn">
+                <span class="rocket-body">↑</span>
+                <span class="flame"></span>
+                <span class="dust"></span></a>
+        </div>
+        
+        
+        
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+       
+    </footer>
+
+    <!-- Script for menu toggle -->
+    <script>
+        // JavaScript for toggling the menu and button state
+        const menuButton = document.getElementById('menu-button');
+        const navMenu = document.getElementById('nav-menu');
+        const navLinks = document.querySelectorAll('.nav-menu a'); // Select all nav links
+        
+
+        document.getElementById("Btn").addEventListener("click", function() {
+    window.location.href = "sl.html";
+});
+
+        menuButton.addEventListener('click', () => {
+            navMenu.classList.toggle('active');  // Toggle the visibility of the menu
+
+            // Toggle between the "menu" and "cancel" icon
+            if (navMenu.classList.contains('active')) {
+                menuButton.innerHTML = '×';  // Change to cancel icon (X)
+            } else {
+                menuButton.innerHTML = '☰';  // Change back to hamburger icon
+            }
+        });
+
+        // Close the menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');  // Close the menu
+                menuButton.innerHTML = '☰';  // Change back to the hamburger icon
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+    const imageContainer = document.getElementById("imageContainer");
+    
+    let images = Array.from(imageContainer.getElementsByTagName("img"));
+
+    // Sort images based on the "data-order" attribute
+    images.sort((a, b) => a.getAttribute("data-order") - b.getAttribute("data-order"));
+
+    // Append sorted images back to the container
+    images.forEach(img => imageContainer.appendChild(img));
+});
+document.querySelectorAll(".gallery-img").forEach(img => {
+    img.addEventListener("click", function() {
+        document.getElementById("fullscreen-img").src = this.src;
+        document.getElementById("fullscreen").style.display = "flex";
+    });
+});
+
+function closeImage() {
+    document.getElementById("fullscreen").style.display = "none";
+}
+
+function showProfile() {
+    document.getElementById('profile-fullscreen').style.display = 'flex';
+  }
+
+  function closeProfile() {
+    document.getElementById('profile-fullscreen').style.display = 'none';
+  }
+
+
+  const topBtn = document.getElementById("topBtn");
+
+topBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  // Change to rocket emoji or icon
+  const rocket = topBtn.querySelector(".rocket-body");
+  rocket.textContent = "↑";
+
+  topBtn.classList.add("fly");
+
+  // Scroll to top
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+  // Reset
+  setTimeout(() => {
+    topBtn.classList.remove("fly");
+    rocket.textContent = "↑";
+  }, 1600);
+});
+
+
+function toggleSection(id) {
+  const sections = document.querySelectorAll('.hidden-section');
+  sections.forEach(section => {
+    if (section.id === id) {
+      // Toggle visibility of the clicked section
+      section.style.display = section.style.display === 'block' ? 'none' : 'block';
+    } else {
+      // Hide all others
+      section.style.display = 'none';
+    }
+  });
+}
+
+
+
+
+function closeSections() {
+  // Hide all fullscreen sections if they exist
+  const sections = ['skills', 'projects'];
+  sections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && el.style.display === 'block') {
+      el.style.display = 'none';
+    }
+  });
+
+  // Scroll to the home section
+  const home = document.getElementById('bro');
+  if (home) {
+    home.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pexels-christian-heitz-285904-842711.jpg'); /* Change to your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    z-index: -1;
+}
+h1{
+    position: absolute;
+}
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+}
+
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-left: 1000px;
+    position: relative;
+
+}
+
+.nav button {
+    padding: 8px 15px;
+    background: #444eb8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.nav button:hover {
+    background: #777;
+}
+
+footer {
+    bottom: 0;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #555;
+}
+
+#toggleText {
+    margin-top: 10px;
+}
+
+#toggleText a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav {
+        
+        gap: 10px;
+        margin-left: 180px;
+        position: relative;
+    
+    }
+    .nav button {
+        padding: 3px 6px;
+        background: #444eb8;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    h1{
+        position: absolute;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1200px) and (min-width:901px) {
+    .container {
+        width: 90%;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav {
+        display: flex;
+        gap: 10px;
+        margin-left: 700px;
+        position: relative;
+    
+    }
+    .nav button {
+        padding: 3px 6px;
+        background: #444eb8;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    .nav button:hover {
+        background: #777;
+    }
+    .nav button:hover {
+        background: #777;
+    }
+    h1{
+        position: absolute;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 900px) and (min-width:601px){
+    .container {
+        width: 90%;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav {
+        display: flex;
+        gap: 10px;
+        margin-left: 380px;
+        position: relative;
+    
+    }
+    .nav button {
+        padding: 3px 6px;
+        background: #444eb8;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    .nav button:hover {
+        background: #777;
+    }
+    h1{
+        position: absolute;
+        font-size: 20px;
+    }
+}
+    </style>
+
+
+
+
+
+
+     <form id="add-member-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="status">Membership Status:</label>
+                <select id="status" name="status">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+
+                <label for="renewal-date">Renewal Date:</label>
+                <input type="date" id="renewal-date" name="renewal-date" required>
+
+                <button type="submit">Add Member</button>
+            </form>
+
+
+
+<a href="https://www.linkedin.com/in/pranay-deep-nelapati-1a3bb9288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+    <img src='linkedin icon logo.png' alt="LinkedIn" style="width:40px; height:40px; cursor:pointer;">
+  </a>
+            

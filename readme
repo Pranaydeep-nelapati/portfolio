@@ -1,0 +1,57 @@
+# 🌐 Pranay Deep Nelapati - Portfolio Website
+
+Welcome to my personal portfolio website! This site serves as a digital resume and project showcase for my work in web development and software engineering.
+
+🔗 **Live Site:** [https://pranayportfolio34.netlify.app](https://pranayportfolio34.netlify.app)
+
+---
+
+## 📌 Overview
+
+This portfolio is designed to introduce who I am, showcase my skills and completed projects, and provide visitors with an easy way to connect with me. It is clean, responsive, and fully built using HTML, CSS, and JavaScript without any frameworks.
+
+---
+
+## ✨ Features
+
+- 🧑‍💼 **About Section:** A brief introduction and background information.
+- 🧪 **Skills Section:** Interactive fullscreen section showing technologies I'm familiar with.
+- 🗣️ **Languages Section:** Visual display of the languages I speak.
+- 💼 **Projects Section:** Highlighted projects with live links and summaries.
+- 📄 **Certificates:** Placeholder for future certifications.
+- 📬 **Contact Section:** Details on how to reach me.
+- 📱 **Responsive Design:** Optimized for desktop and mobile viewing.
+- 🎨 **Animated Interface:** Smooth section transitions and modals.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Hosting:** Netlify
+
+---
+
+## 🧠 Notable Projects
+
+### 🌤️ Weather Application  
+Live Demo: [View](https://myweatherapplication34.netlify.app/)  
+- Real-time weather using OpenWeatherMap API  
+- Dynamic visuals and auto-location detection  
+
+### 🛒 Grocery Store Management System   
+- Desktop-based GUI app for store operations using Python & Tkinter  
+
+### 🖥️ This Portfolio Website  
+- Built from scratch to showcase personal projects, resume, and contact info  
+
+---
+
+## 🖼 Screenshots
+
+*(Insert screenshots or previews here if you want)*
+
+---
+
+## 📂 Folder Structure (Simplified)
+
